@@ -1,5 +1,5 @@
 # CVanalyzer
-Demo Purpose
+An Client-Server application scans any uploaded file(PDF,TXT) and return analytical data by processing it. Created using `Java` `JAX-RS` in backend and `JavScript` `CSS` `HTML` in front end.
 
 ### Deployment instruction
 run `mvn jetty:run -DskipTests`. 
