@@ -15,6 +15,39 @@ Open any browser and hit `localhost:3000/cv-analyzer/`
 >4. Chart.js (http://www.chartjs.org/)
 >5. Javascript with JQuery
 
+### Structure
+```
+CVanalyzer/
+├── README.md
+└── cv-analyzer
+    ├── pom.xml
+    ├── public
+    │   ├── css
+    │   │   ├── materialize.css
+    │   │   └── materialize.min.css
+    │   ├── fonts
+    │   │   └── roboto
+    │   ├── frontapp.html
+    │   └── js
+    │       ├── first.js
+    │       ├── materialize.js
+    │       └── materialize.min.js
+    └── src
+        └── main
+            ├── java
+            │   ├── com
+            │   │   └── App.java
+            │   ├── main
+            │   │   ├── Engine.java
+            │   │   └── stub.java
+            │   └── util
+            │       ├── FileUtil.java
+            │       └── pdfCoverter.java
+            └── webapp
+                └── WEB-INF
+                    └── web.xml
+```
+
 ### Work Flow
 >1. Browser hit GET call -> Jetty server running at localhost return base html and subordinate static files.
 >2. User upload file and hit submit. File get transferred over POST call.
